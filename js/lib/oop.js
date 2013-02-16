@@ -21,15 +21,28 @@
      */
     var __create = function (pr) {
         var p = pr || {}, b = function () {
-        },i=pr.init||{};
+
+
+            var o=null;
+            if($.isObject(o=(arguments.length===1&&arguments[0]))){
+                /**
+                 * 如果传入的第一个参数是个对象把对象中的值复制给当前对象
+                 */
+                for(var k in o){
+                    if(o.hasOwnProperty(k)){
+                        this[k]=o[k];
+                    }
+                }
+            }
+        };
         if (this === Base || (this.prototype instanceof Base)) {
             _inh(this, b);
         }
         b.prototype.id = p.id || 'base_' + (Base.__uid++);
         b.create=arguments.callee;
-        for(var k in i){
-            if(i.hasOwnProperty(k)){
-                b.prototype[k]=i[k];
+        for(var k in p){
+            if(p.hasOwnProperty(k)){
+                b.prototype[k]=p[k];
             }
         }
         return b;
