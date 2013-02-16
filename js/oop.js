@@ -2,7 +2,7 @@
  * Created with IntelliJ IDEA.
  * User: Administrator
  * Date: 13-2-12
- * Time: ÏÂÎç10:36
+ * Time: ä¸‹åˆ10:36
  * To change this template use File | Settings | File Templates.
  */
 (function (w) {
@@ -14,9 +14,9 @@
     Base.__uid = 1;
 
     /**
-     * ÊµÏÖ¼Ì³Ğ
-     * @param pr ÅäÖÃ
-     * @return {Function} ´´½¨ºÃµÄÒÑ¾­´Ó»ùÀà¼Ì³ĞµÄº¯Êı¶ÔÏó
+     * å®ç°ç»§æ‰¿
+     * @param pr é…ç½®
+     * @return {Function} åˆ›å»ºå¥½çš„å·²ç»ä»åŸºç±»ç»§æ‰¿çš„å‡½æ•°å¯¹è±¡
      * @private
      */
     var __create = function (pr) {
@@ -41,9 +41,9 @@
 
 
     /**
-     * ÊµÏÖ¼Ì³Ğ
-     * @param sup ¸¸Àà
-     * @param sub ×ÓÀà
+     * å®ç°ç»§æ‰¿
+     * @param sup çˆ¶ç±»
+     * @param sub å­ç±»
      * @private
      */
     function _inh(sup, sub) {
@@ -51,7 +51,7 @@
         };
         fun.prototype = sup.prototype;
         sub.prototype = new fun();
-        sub.prototype._super=sup.prototype;  //±£Áô¸¸ÀàµÄÒıÓÃ
+        sub.prototype._super=sup.prototype;  //ä¿ç•™çˆ¶ç±»çš„å¼•ç”¨
         sub.prototype.constructor = sub;
     }
 
