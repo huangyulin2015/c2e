@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>test</title>
+    <script src="../js/oop.js"></script>
+    <script>
+        var B = Base.create({init: {name: 'bbbb', say: function () {
+            console.log(this.name);
+        }}});
+
+        var b = new B();
+        b.say();
+
+        var C = B.create({init: {name: 'ccc', say: function () {
+            console.log(this.name);
+        }, say2: function () {
+            console.log(this._super.name);
+        }}})
+        var c = new C();
+        c.say();
+        c.say2();
+    </script>
+</head>
+<body>
+<canvas id="app" width="320" height="440"></canvas>
+</body>
+</html>
