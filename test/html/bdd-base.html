@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>c2e bdd base test</title>
+    <meta charset="utf-8">
+    <link href="../lib/mocha/mocha.css" type="text/css" rel="stylesheet"/>
+    <script src="../lib/mocha/mocha.js"></script>
+    <script>mocha.setup({'ui': 'bdd', 'ignoreLeaks': true});</script>
+    <script src="../lib/chai.js"></script>
+    <script>
+        chai.should();
+    </script>
+    <script src="../../js/lib/utils.js"></script>
+    <script src="../../js/lib/oop.js"></script>
+    <script src="../../js/base/ui.base.js"></script>
+    <script src="../../js/base/st.base.js"></script>
+
+    <script src="../js/bdd-base.js"></script>
+    <script>
+        onload = function () {
+            var runner = mocha.run();
+            runner.globals(['foo', 'bar', 'baz']);
+        }
+    </script>
+</head>
+<body>
+<div id="mocha"></div>
+</body>
+</html>
