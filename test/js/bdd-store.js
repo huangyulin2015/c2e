@@ -12,7 +12,29 @@ describe("ui", function () {
         st.setItem.should.throw(Error);
         var c = new ui.Cpt();
         st.setItem(c);
-        c.should.eql(st.getItem());
+        st.setItem(c);
+//        c.should.eql(st.getItem());
+        st.list.length.should.eql(1);
+    });
+
+
+    it('getById', function () {
+        var st = new window.st.Ui();
+        var c = new ui.Cpt();
+        st.setItem(c);
+        var c2 = new ui.Cpt();
+        st.setItem(c2);
+        st.getById(c.id).should.eql(c);
+        st.getById(c2.id).should.eql(c2);
+    });
+
+    it('getByType', function () {
+        var st = new window.st.Ui();
+        var c = new ui.Cpt();
+        st.setItem(c);
+        var c2 = new ui.Cpt();
+        st.setItem(c2);
+        st.getByType(c.type).length.should.eql(2);
     });
 
 

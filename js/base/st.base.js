@@ -38,14 +38,13 @@
          */
         getItem: function (i, f) {
             var item = this.list && this.list.length > 0 && this.list[0];
-            if (!isNaN(i) && !f) {
+
+            if (!f) {
                 item = this.list[i];
-            } else if (!isNaN(i) && f) {
+            } else {
                 item = this.list.splice(i, 1)[0];
-            } else if (isNaN(i) && f) {
-                item = this.list.shift();
             }
-            return item;
+            return (item = item || this.list[0]);
         }
 
     });

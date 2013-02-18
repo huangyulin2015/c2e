@@ -2,24 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4656344-ced0-4194-b3b6-f699f274b21f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/html/bdd-store.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/js/bdd-store.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/html/bdd-ui.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/js/bdd-ui.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/base/st.base.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/ui/ui.app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/ui/ui.cpt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/store/ui.store.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test/html/bdd.html" afterPath="$PROJECT_DIR$/test/html/bdd-base.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test/js/bdd.js" afterPath="$PROJECT_DIR$/test/js/bdd-base.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/js/bdd-store.js" afterPath="$PROJECT_DIR$/test/js/bdd-store.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/lib/oop.js" afterPath="$PROJECT_DIR$/js/lib/oop.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/base/st.base.js" afterPath="$PROJECT_DIR$/js/base/st.base.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/ui/ui.cpt.js" afterPath="$PROJECT_DIR$/js/ui/ui.cpt.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/store/ui.store.js" afterPath="$PROJECT_DIR$/js/store/ui.store.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="canvas.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/base.js" changelist="d4656344-ced0-4194-b3b6-f699f274b21f" time="1360678897193" ignored="false" />
     <file path="/test.html" changelist="d4656344-ced0-4194-b3b6-f699f274b21f" time="1360914393037" ignored="false" />
-    <file path="/oop.js" changelist="d4656344-ced0-4194-b3b6-f699f274b21f" time="1360986375403" ignored="false" />
-    <file path="/Dummy.txt" changelist="d4656344-ced0-4194-b3b6-f699f274b21f" time="1361146918271" ignored="false" />
+    <file path="/oop.js" changelist="d4656344-ced0-4194-b3b6-f699f274b21f" time="1361154173363" ignored="false" />
+    <file path="/Dummy.txt" changelist="d4656344-ced0-4194-b3b6-f699f274b21f" time="1361147294378" ignored="false" />
     <file path="/ui.base.js" changelist="d4656344-ced0-4194-b3b6-f699f274b21f" time="1360986859925" ignored="false" />
     <file path="/utils.js" changelist="d4656344-ced0-4194-b3b6-f699f274b21f" time="1360983632082" ignored="false" />
     <file path="/bdd1.html" changelist="d4656344-ced0-4194-b3b6-f699f274b21f" time="1360986518366" ignored="false" />
@@ -28,15 +23,17 @@
     <file path="/ui.app.js" changelist="d4656344-ced0-4194-b3b6-f699f274b21f" time="1361064696982" ignored="false" />
     <file path="/bdd-ui.html" changelist="d4656344-ced0-4194-b3b6-f699f274b21f" time="1361066229144" ignored="false" />
     <file path="/bdd-ui.js" changelist="d4656344-ced0-4194-b3b6-f699f274b21f" time="1361064597146" ignored="false" />
-    <file path="/ui.cpt.js" changelist="d4656344-ced0-4194-b3b6-f699f274b21f" time="1361062375593" ignored="false" />
+    <file path="/ui.cpt.js" changelist="d4656344-ced0-4194-b3b6-f699f274b21f" time="1361147395744" ignored="false" />
     <file path="$PROJECT_DIR$/../../redatoms/mojo/protected/data/update_entity_animation_file.sql" changelist="d4656344-ced0-4194-b3b6-f699f274b21f" time="1361062774833" ignored="false" />
     <file path="/store.base.js" changelist="d4656344-ced0-4194-b3b6-f699f274b21f" time="1361066073271" ignored="false" />
     <file path="/bdd-base.html" changelist="d4656344-ced0-4194-b3b6-f699f274b21f" time="1361066235437" ignored="false" />
     <file path="/bdd-base.js" changelist="d4656344-ced0-4194-b3b6-f699f274b21f" time="1361066452965" ignored="false" />
-    <file path="/st.base.js" changelist="d4656344-ced0-4194-b3b6-f699f274b21f" time="1361065967640" ignored="false" />
-    <file path="/ui.store.js" changelist="d4656344-ced0-4194-b3b6-f699f274b21f" time="1361067274684" ignored="false" />
-    <file path="/bdd-store.js" changelist="d4656344-ced0-4194-b3b6-f699f274b21f" time="1361067236349" ignored="false" />
+    <file path="/st.base.js" changelist="d4656344-ced0-4194-b3b6-f699f274b21f" time="1361150374100" ignored="false" />
+    <file path="/ui.store.js" changelist="d4656344-ced0-4194-b3b6-f699f274b21f" time="1361154041445" ignored="false" />
+    <file path="/bdd-store.js" changelist="d4656344-ced0-4194-b3b6-f699f274b21f" time="1361150170279" ignored="false" />
     <file path="/bdd-store.html" changelist="d4656344-ced0-4194-b3b6-f699f274b21f" time="1361067146011" ignored="false" />
+    <file path="/a.dummy" changelist="d4656344-ced0-4194-b3b6-f699f274b21f" time="1361150275018" ignored="false" />
+    <file path="/test_router.html" changelist="d4656344-ced0-4194-b3b6-f699f274b21f" time="1361153949622" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +91,37 @@
     <favorites_list name="canvas" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="bdd-store.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/js/bdd-store.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="100" selection-start="633" selection-end="633" vertical-scroll-proportion="0.41574278">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ui.store.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/store/ui.store.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="38" column="78" selection-start="1155" selection-end="1155" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#0#159#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="oop.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/lib/oop.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="101" selection-start="327" selection-end="327" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -113,22 +140,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/test/js/bdd1.js" />
-        <option value="$PROJECT_DIR$/js/lib/oop.js" />
-        <option value="$PROJECT_DIR$/test/html/bdd.html" />
         <option value="$PROJECT_DIR$/js/base/ui.base.js" />
         <option value="$PROJECT_DIR$/test/js/bdd.js" />
-        <option value="$PROJECT_DIR$/js/ui/ui.cpt.js" />
         <option value="$PROJECT_DIR$/js/ui/ui.app.js" />
         <option value="$PROJECT_DIR$/test/js/bdd-ui.js" />
         <option value="$PROJECT_DIR$/js/base/store.base.js" />
         <option value="$PROJECT_DIR$/test/html/bdd-ui.html" />
         <option value="$PROJECT_DIR$/test/html/bdd-base.html" />
         <option value="$PROJECT_DIR$/test/js/bdd-base.js" />
-        <option value="$PROJECT_DIR$/js/base/st.base.js" />
         <option value="$PROJECT_DIR$/test/html/bdd-store.html" />
-        <option value="$PROJECT_DIR$/js/store/ui.store.js" />
+        <option value="$PROJECT_DIR$/js/ui/ui.cpt.js" />
         <option value="$PROJECT_DIR$/test/js/bdd-store.js" />
+        <option value="$PROJECT_DIR$/js/base/st.base.js" />
+        <option value="$PROJECT_DIR$/../../redatoms/0.4.0/js/lib/backbone.js" />
+        <option value="$PROJECT_DIR$/../../redatoms/0.5.0/js/test_router.html" />
+        <option value="$PROJECT_DIR$/js/store/ui.store.js" />
+        <option value="$PROJECT_DIR$/js/lib/oop.js" />
       </list>
     </option>
   </component>
@@ -173,8 +200,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -295,6 +320,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -478,16 +505,21 @@
       <created>1360987198421</created>
       <updated>1360987198421</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="增加store模块">
+      <created>1361147298263</created>
+      <updated>1361147298264</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="1680" y="0" width="1680" height="1050" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4139785" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32903227" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -496,6 +528,7 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32903227" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32903227" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -505,8 +538,6 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32903227" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32903227" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -549,7 +580,7 @@
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加测试模块" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加store模块" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -566,89 +597,128 @@
     <MESSAGE value="change file encoding" />
     <MESSAGE value="create base structure" />
     <MESSAGE value="增加测试模块" />
+    <MESSAGE value="增加store模块" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/lib/mocha/mocha.js">
+    <entry file="file://$PROJECT_DIR$/js/base/st.base.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4898" column="15" selection-start="97773" selection-end="97773" vertical-scroll-proportion="0.21822272" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/lib/mocha/mocha.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="186" column="73" selection-start="2912" selection-end="2912" vertical-scroll-proportion="0.26940134" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/lib/oop.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="55" selection-start="440" selection-end="440" vertical-scroll-proportion="0.21570796" />
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavascriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/ECMAScript.js2">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="243" column="21" selection-start="10659" selection-end="10659" vertical-scroll-proportion="0.6681416" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/ui/ui.app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="17" selection-start="252" selection-end="252" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/html/bdd-ui.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="21" selection-start="51" selection-end="51" vertical-scroll-proportion="0.051252846" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/js/bdd-base.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="51" selection-start="954" selection-end="954" vertical-scroll-proportion="0.3181818" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/html/bdd-base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="24" selection-start="54" selection-end="54" vertical-scroll-proportion="0.051252846" />
+        <state line="21" column="138" selection-start="474" selection-end="474" vertical-scroll-proportion="0.24944568">
+          <folding>
+            <element signature="e#0#158#0" expanded="false" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/ui/ui.cpt.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="34" selection-start="297" selection-end="297" vertical-scroll-proportion="0.19955654" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/js/bdd-ui.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="41" selection-start="656" selection-end="656" vertical-scroll-proportion="0.5487805" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/lib/utils.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="470" selection-end="470" vertical-scroll-proportion="0.36585367" />
+        <state line="15" column="23" selection-start="278" selection-end="278" vertical-scroll-proportion="0.24944568">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/base/ui.base.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="4" selection-start="209" selection-end="209" vertical-scroll-proportion="0.049889136" />
+        <state line="9" column="16" selection-start="221" selection-end="221" vertical-scroll-proportion="0.049889136">
+          <folding>
+            <element signature="e#0#159#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/js/bdd-base.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="68" selection-start="581" selection-end="581" vertical-scroll-proportion="0.035476718">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/html/bdd-base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="184" selection-start="775" selection-end="775" vertical-scroll-proportion="0.37585422">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../redatoms/0.5.0/js/collections/galaxy.cols.Users.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../redatoms/0.4.0/js/models/galaxy.model.user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="61" selection-start="297" selection-end="297" vertical-scroll-proportion="0.18292683">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../redatoms/0.4.0/js/views/galaxy.ui.label.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="71" selection-start="728" selection-end="728" vertical-scroll-proportion="0.31596452">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../redatoms/0.4.0/js/lib/backbone.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1388" column="61" selection-start="57529" selection-end="57529" vertical-scroll-proportion="0.05210643">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../redatoms/0.4.0/js/views/galaxy.ui.dialog.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="114" selection-start="1252" selection-end="1252" vertical-scroll-proportion="0.4323725">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../redatoms/0.4.0/js/testst.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="48" selection-start="120" selection-end="120" vertical-scroll-proportion="0.11958998">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../redatoms/0.5.0/js/test_router.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="61" selection-start="315" selection-end="315" vertical-scroll-proportion="0.20501138">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/html/bdd-store.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="74" selection-start="533" selection-end="533" vertical-scroll-proportion="-8.75" />
+        <state line="15" column="123" selection-start="586" selection-end="586" vertical-scroll-proportion="0.25626424">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/lib/oop.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="101" selection-start="327" selection-end="327" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/store/ui.store.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="47" selection-start="206" selection-end="206" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/base/st.base.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="46" selection-start="474" selection-end="474" vertical-scroll-proportion="0.0" />
+        <state line="38" column="78" selection-start="1155" selection-end="1155" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#159#0" expanded="false" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/js/bdd-store.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="93" selection-start="383" selection-end="383" vertical-scroll-proportion="0.23281597" />
+        <state line="25" column="100" selection-start="633" selection-end="633" vertical-scroll-proportion="0.41574278">
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>

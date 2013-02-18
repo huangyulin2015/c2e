@@ -8,7 +8,13 @@
 (function(){
     var ui = $.namespace('ui');
 
+
+    /**
+     * 创建UI组件基类
+     * @type {*}
+     */
     ui.Cpt = ui.Base.create({
+        type:0,//所有的组件都会有一个类型，用来区别组件
         draw:function(app){
             if(!this.app || !app){
                 throw new Error('请先把组件添加到app中');
